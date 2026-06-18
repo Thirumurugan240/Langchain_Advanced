@@ -1,0 +1,31 @@
+# LangChain Advanced dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core LangChain framework
+langchain
+langchain-core
+
+# Connects LangChain to OpenAI's GPT models (main model used in this course)
+langchain-openai
+
+# ----------------------------------------------------------------------
+# OPTIONAL: other AI providers (see notebook 02 - Model Integration).
+# Uncomment a line below only if you want to use that provider.
+
+# langchain-ollama          # run models locally (no API key needed)
+# langchain-anthropic       # Claude  (needs ANTHROPIC_API_KEY)
+# langchain-google-genai    # Google Gemini  (needs GOOGLE_API_KEY)
+# ----------------------------------------------------------------------
+
+# ----------------------------------------------------------------------
+# Before running the notebooks, set your API key.
+# Windows PowerShell:
+#   $env:OPENAI_API_KEY = "your-key-here"
+#   $env:ANTHROPIC_API_KEY = "your-key-here"   # only if using Claude
+#   $env:GOOGLE_API_KEY = "your-key-here"      # only if using Gemini
+# Mac / Linux:
+#   export OPENAI_API_KEY="your-key-here"
+#
+# Ollama needs no key - just install the Ollama app from https://ollama.com
+# and run:  ollama pull llama3
+# ----------------------------------------------------------------------
